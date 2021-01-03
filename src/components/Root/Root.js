@@ -1,8 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import { About } from '../About/About'
+import { Footer } from '../Footer/Footer'
 import { Home } from '../Home/Home'
 import { Services } from '../Services/Services'
+import { Technologies } from '../Services/Technologies'
+import { Work } from '../Work/Work'
 
 const Wrapper = styled.div `
   background-color: #2b2b2b;
@@ -17,6 +20,9 @@ export const Root = () => {
       <Home/>
       <About/>
       <Services/>
+      <Technologies/>
+      <Work/>
+      <Footer/>
     </Wrapper>
   )
 }

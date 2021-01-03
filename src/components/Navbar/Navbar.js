@@ -3,47 +3,20 @@ import styled from 'styled-components';
 import {IconContext} from "react-icons";
 import { TiThMenu } from 'react-icons/ti';
 
-const NavBar = styled.nav`
-  width: 100%;
-  position:absolute;
-  & ul{
-    display:flex;
-    justify-content: flex-end;
-    margin: 0px;
-    padding: 20px;
-    & li{
-      margin: 10px 20px;
-      text-decoration:none;
-      list-style-type:none;
-      & a{
-        text-decoration:none;
-        font-size: 20px;
-        color: ${props => props.theme.darkThemeFG}
-      }
-      & a:hover{
-        font-weight:bolder;
-        transition: all ease 0.3s;
-        color: ${props => props.theme.navbarHoverFG};
-        /* text-shadow: 2px 2px 5px ${props => props.theme.navbarHoverFG}; */
-      }
-    }
-  }
-`;
-
 const MenuLink = styled.a`
   padding: 20px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  color: ${props => props.theme.darkThemeFG};
+  color: ${props => props.theme.titleColor};
   transition: all 0.3s ease-in;
   /* font-size: 0.9rem; */
   font-size: 16px;
   & span:hover {
     font-weight:bolder;
     transition: all ease 0.3s;
-    color: ${props => props.theme.navbarHoverFG};
-    text-shadow: 2px 2px 5px ${props => props.theme.navbarHoverFG};
+    color: ${props => props.theme.brandColor};
+    /* text-shadow: 2px 2px 5px ${props => props.theme.navbarHoverFG}; */
   }
 `;
 
@@ -53,7 +26,6 @@ const Nav = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  /* background: rgba(0,0,0,0.1); */
   position: absolute;
   top: 0;
   left: 0;
