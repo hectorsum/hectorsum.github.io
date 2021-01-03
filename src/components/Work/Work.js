@@ -12,7 +12,7 @@ const WorkSection = styled.div `
 `;
 export const Work = () => {
   return (
-    <WorkSection>
+    <WorkSection id="work">
       <WorkSectionTitle>work 🚀</WorkSectionTitle>
     </WorkSection>
   )

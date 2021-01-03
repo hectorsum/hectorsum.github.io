@@ -5,6 +5,12 @@ import react from '../../assets/images/react.svg';
 import express from '../../assets/images/express.svg';
 import javascript from '../../assets/images/javascript.svg';
 import sass from '../../assets/images/sass.svg';
+import webpack from '../../assets/images/webpack.svg';
+import npm from '../../assets/images/npm.svg';
+import python from '../../assets/images/python.svg';
+import mysql from '../../assets/images/mysql.svg';
+import sqlite from '../../assets/images/sqlite.svg';
+import bootstrap from '../../assets/images/bootstrap.svg';
 
 const TechnologiesSection = styled.div `
   display:relative;
@@ -23,6 +29,8 @@ const TechnologiesWrapper = styled.div `
   display:grid;
   grid-template-columns: 25% 25% 25% 25%;
   column-gap: 10px;
+  row-gap: 10px;
+  margin-top:10px;
 `;
 
 const Image = styled.img `
@@ -47,7 +55,7 @@ export const Technologies = () => {
     <TechnologiesSection>
       <DescriptionWrapper>
         <TecnologiesSectionTitle>Technologies and Frameworks</TecnologiesSectionTitle>
-        <p>Some technologies,libraries and frameworks I use most in my projects</p>
+        <p>Some languages, libraries and frameworks I use most in my projects</p>
       </DescriptionWrapper>
       <TechnologiesWrapper>
         <Image src={nodejs} alt={nodejs}/>
@@ -55,6 +63,12 @@ export const Technologies = () => {
         <Image src={express} alt={express}/>
         <Image src={javascript} alt={javascript}/>
         <Image src={sass} alt={sass}/>
+        <Image src={webpack} alt={webpack}/>
+        <Image src={npm} alt={npm}/>
+        <Image src={python} alt={python}/>
+        <Image src={mysql} alt={mysql}/>
+        <Image src={sqlite} alt={sqlite}/>
+        <Image src={bootstrap} alt={bootstrap}/>
       </TechnologiesWrapper>
     </TechnologiesSection>
   )

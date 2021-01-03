@@ -37,7 +37,7 @@ const Logo = styled.a`
   color: #F5F5F5;
   text-decoration: none;
   font-weight: 800;
-  font-size: 1.8rem;
+  font-size: 2rem;
   span {
     font-weight: 300;
     font-size: 1.3rem;
@@ -81,11 +81,11 @@ export const Navbar = () => {
         </IconContext.Provider>
       </Hamburger>
       <Menu isOpen={isOpen}>
-        <MenuLink href=""> <span>home</span> 📍</MenuLink>
-        <MenuLink href=""> <span>about</span> 👨‍💻</MenuLink>
-        <MenuLink href=""> <span>services</span> 💻</MenuLink>
-        <MenuLink href=""> <span>work</span> 🚀</MenuLink>
-        <MenuLink href=""> <span>contact</span> 👋</MenuLink>
+        {/* <MenuLink href="#home"> <span>home</span> 📍</MenuLink> */}
+        <MenuLink href="#work"> <span>work</span> 🚀</MenuLink>
+        <MenuLink href="#about"> <span>about</span> 👨‍💻</MenuLink>
+        <MenuLink href="#services"> <span>services</span> 💻</MenuLink>
+        <MenuLink href="mailto: sumhector@gmail.com"> <span>contact</span> 👋</MenuLink>
       </Menu>
     </Nav>
   )

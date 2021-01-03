@@ -57,7 +57,7 @@ const ServiceItem = styled.article `
 
 export const Services = () => {
   return (
-    <ServicesSection>
+    <ServicesSection id="services">
       <ServicesSectionTitle>services 💻</ServicesSectionTitle>
       <ServicesWrapper>
         <ServiceItem>
