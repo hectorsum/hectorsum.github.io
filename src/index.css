@@ -3,7 +3,12 @@ body{
   font-family: 'Inconsolata', monospace;
   background-color: #2B2B2B;
 }
+
 p{
   font-family: 'Work Sans', sans-serif;
-  font-size: 18px;
+  font-size: 15px;
+}
+::selection {
+  color: #F5F5F5;
+  background: #FFFF49;
 }
