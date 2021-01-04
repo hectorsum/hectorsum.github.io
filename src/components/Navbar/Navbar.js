@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import styled, { isStyledComponent } from 'styled-components';
+import styled from 'styled-components';
 import {IconContext} from "react-icons";
 import { TiThMenu } from 'react-icons/ti';
-import { Link, NavLink, useRouteMatch } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const MenuLink = styled.span`
   padding: 20px;

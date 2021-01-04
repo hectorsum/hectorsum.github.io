@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import styled from 'styled-components';
 import profile from '../../assets/images/profile.png';
-import profile_no_bg from '../../assets/images/profile-no-bg.png';
 import { DownloadResume } from '../Button/DownloadResume';
-import { useLocation } from 'react-router-dom';
 
 const AboutSection = styled.div `
   position:relative;

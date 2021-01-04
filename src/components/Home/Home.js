@@ -1,5 +1,4 @@
 import React from 'react'
-import { Navbar } from '../Navbar/Navbar'
 import styled from 'styled-components';
 
 const HomeScreen = styled.div `
