@@ -1,6 +1,6 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom';
 import styled from 'styled-components'
-
 const Button = styled.button `
   padding: 15px;
   width:160px;
@@ -11,6 +11,7 @@ const Button = styled.button `
   font-weight:600;
   margin-top:10px;
   font-family: 'Space Mono', monospace;
+  outline:none;
   &:hover{
     border:none;
     cursor: pointer;
@@ -23,7 +24,11 @@ const Button = styled.button `
 `;
 
 export const AboutButton = () => {
+  const history = useHistory();
+  const handleHistory = (e) =>{
+    return history.push('/about');
+  }
   return (
-    <Button>Read more ➡️</Button>
+    <Button onClick={handleHistory}>Read more ➡️</Button>
   )
 }
