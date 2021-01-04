@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styled from 'styled-components';
-import profile from '../../assets/images/profile-bg.png';
+import profile from '../../assets/images/profile.png';
 import profile_no_bg from '../../assets/images/profile-no-bg.png';
-import { AboutButton } from '../Button/AboutButton';
+import { DownloadResume } from '../Button/DownloadResume';
+import { useLocation } from 'react-router-dom';
 
 const AboutSection = styled.div `
   position:relative;
@@ -10,7 +11,7 @@ const AboutSection = styled.div `
   display:flex;
   justify-content:space-between;
   padding: 5rem;
-  flex-wrap:wrap;
+  /* flex-wrap:wrap; */
 `;
 const Info = styled.div `
   display:flex;
@@ -45,24 +46,17 @@ const ImageWrapper = styled.div `
   align-items:center;
 `;
 export const About = () => {
-  const [hover, setHover] = useState(profile);
-
-  const handleHover = (e) =>{
-    return setHover(profile_no_bg)
-  }
-  const handleHoverOut = () =>{
-    return setHover(profile);
-  }
+  document.title = 'About | Hector Herrera'
   return (
-    <AboutSection id="about">
+    <AboutSection>
+      <ImageWrapper>
+        <ProfileImage src={profile} alt="Profile Image Hector Herrera"/>
+      </ImageWrapper>
       <Info> 
         <AboutTitle>about me 👨‍💻</AboutTitle>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus atque similique recusandae dolorem fugiat ipsa saepe modi molestiae? Nisi maxime culpa fugit soluta quaerat cupiditate, quisquam explicabo facilis tempora quae earum, in eos placeat? Quod, recusandae officia! Iure, sit. Atque nisi repellendus velit ut! Dolorum cumque fuga dolor asperiores doloribus maxime quaerat error totam eius? Rerum ullam eius eveniet tenetur!</p>
-        <AboutButton/>
+        <DownloadResume/>
       </Info>
-      <ImageWrapper>
-        <ProfileImage src={hover} alt="Profile Image Hector Herrera" onMouseOver={handleHover} onMouseOut={handleHoverOut}/>
-      </ImageWrapper>
     </AboutSection>
   )
 }
