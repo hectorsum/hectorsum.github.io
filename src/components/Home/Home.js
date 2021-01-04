@@ -39,7 +39,6 @@ const WrapperTitle = styled.div `
 export const Home = () => {
   return (
     <HomeScreen>
-      <Navbar/>
       <WrapperTitle>
         <Title>Hello. I'm <span>Hector Herrera</span>, a Web developer based in Lima</Title>
         <p>

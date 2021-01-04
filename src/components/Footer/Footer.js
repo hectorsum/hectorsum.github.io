@@ -58,13 +58,13 @@ export const Footer = () => {
         <a href="mailto: sumhector@gmail.com">sumhector@gmail.com</a>
       </EmailWrapper>
       <SocialIconsWrapper>
-        <a href="https://github.com/hectorsum" target="_blank">
+        <a href="https://github.com/hectorsum" target="_blank" rel="noopener noreferrer">
           <img src={GithubIcon} width="26" alt="Github"/>
         </a>
         <a href="mailto: sumhector@gmail.com" alt="Email to Hector Herrera">
           <img src={EmailIcon} width="26" alt="Mail"/>
         </a>
-        <a href="https://linkedin.com/in/hector-herrera-cusi" target="_blank">
+        <a href="https://linkedin.com/in/hector-herrera-cusi" target="_blank" rel="noopener noreferrer">
           <img src={LinkedinIcon} width="26" alt=""/>
         </a>
       </SocialIconsWrapper>
