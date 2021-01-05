@@ -108,11 +108,11 @@ export const Navbar = () => {
         </MenuLink>
         {/* <MenuLink href="#services"> <span>services</span> 💻</MenuLink> */}
 
-        <NavLink exact to={"/#work"} style={{textDecoration:'none',color: "#F5F5F5"}}> 
-          <MenuLink > 
-              <span>work</span> 🚀
-          </MenuLink>
-        </NavLink>
+        <MenuLink > 
+          <NavLink exact to={"/work"} style={{textDecoration:'none',color: "#F5F5F5"}}> 
+            <span>work</span> 🚀
+          </NavLink>
+        </MenuLink>
         
         <MenuLink>
           <NavLink exact to={"/about"} style={{textDecoration:'none',color: "#F5F5F5"}} activeClassName="active"> 
