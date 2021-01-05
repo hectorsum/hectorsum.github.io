@@ -12,6 +12,7 @@ import { WannaKnow } from '../components/About/WannaKnow';
 import { Services } from '../components/Services/Services';
 import { Work } from '../components/Work/Work';
 import { Technologies } from '../components/Services/Technologies';
+import { DetailWork } from '../components/Work/DetailWork';
 export const AppRouter = () =>{
   return(
     <Router forceRefresh={true}>
@@ -22,11 +23,12 @@ export const AppRouter = () =>{
           <WannaKnow/>
           <Services/>
           <Technologies/>
-          <Work/>
         </Route>
         <Route path="/about">
           <About/>
         </Route>
+        <Route path="/work" component={Work}/>
+        <Route path="/detail/:name" component={DetailWork}/>
       </Switch>
       <Footer/>
     </Router>
