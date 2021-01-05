@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 const ServicesSection = styled.div `
-  display:relative;
+  position:relative;
   margin:0;
   padding: 5rem;
 `;
