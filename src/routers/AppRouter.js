@@ -28,7 +28,7 @@ export const AppRouter = () =>{
           <About/>
         </Route>
         <Route path="/work" component={Work}/>
-        <Route path="/detail/:name" component={DetailWork}/>
+        <Route path="/detail/:id" component={DetailWork}/>
       </Switch>
       <Footer/>
     </Router>

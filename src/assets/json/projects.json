@@ -1,0 +1,48 @@
+[
+  {
+    "id":"manosnortenas",
+    "name":"Manos Norteñas Restaurant",
+    "description":"E-commerce website where clients can easily buy food from there and a system built for employees for maintain products and sales flow",
+    "tecnologies_used":[
+      "https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%F7DF1E&color=%23FFCE5A",
+      "https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff",
+      "https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff",
+      "https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap&logoColor=ffffff",
+      "https://img.shields.io/badge/-Nodejs-339933?style=flat-square&logo=Node.js&logoColor=ffffff",
+      "https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=ffffff",
+      "https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=ffffff"
+    ],
+    "libraries":[
+      "Multer",
+      "Nodemailer",
+      "Stripe",
+      "Uuid",
+      "Bcryptjs",
+      "Gravatar",
+      "Node-sass",
+      "Nodemon"
+    ]
+  },
+  {
+    "id":"bestwestern",
+    "name":"Best Western Hotel",
+    "description":"Hotel website where users can make a reservation of rooms, employees can also manage any type of room and reservation as well",
+    "tecnologies_used":[
+      "https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%F7DF1E&color=%23FFCE5A",
+      "https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff",
+      "https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff",
+      "https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap&logoColor=ffffff",
+      "https://img.shields.io/badge/-Nodejs-339933?style=flat-square&logo=Node.js&logoColor=ffffff",
+      "https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=ffffff",
+      "https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=ffffff"
+    ],
+    "libraries":[
+      "Multer",
+      "Uuid",
+      "Bcryptjs",
+      "Gravatar",
+      "Node-sass",
+      "Nodemon"
+    ]
+  }
+]

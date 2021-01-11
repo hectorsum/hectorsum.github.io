@@ -1,6 +1,6 @@
-import React from 'react'
 import styled from 'styled-components'
-const Button = styled.button`
+
+export const WorkButton = styled.button`
   padding: 10px;
   width:100%;
   color:black;
@@ -21,10 +21,10 @@ const Button = styled.button`
     border: 2px solid ${props => props.theme.titleColor};
   }
 `;
-export const DetailButton = (props) => {
-  return (
-    <Button>
-      See more.. ➡️
-    </Button>
-  )
-}
+// export const WorkButton = (props) => {
+//   return (
+//     <Button>
+//       See more.. ➡️
+//     </Button>
+//   )
+// }

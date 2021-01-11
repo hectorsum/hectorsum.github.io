@@ -12,6 +12,30 @@ import mysql from '../../assets/images/mysql.svg';
 import sqlite from '../../assets/images/sqlite.svg';
 import bootstrap from '../../assets/images/bootstrap.svg';
 
+export const Technologies = () => {
+  return (
+    <TechnologiesSection>
+      <DescriptionWrapper>
+        <TecnologiesSectionTitle>Technologies and Frameworks</TecnologiesSectionTitle>
+        <p>Some languages, libraries and frameworks I use most in my projects</p>
+      </DescriptionWrapper>
+      <TechnologiesWrapper className="row">
+        <Image src={nodejs} alt={nodejs} />
+        <Image src={react} alt={react} />
+        <Image src={express} alt={express} />
+        <Image src={javascript} alt={javascript} />
+        <Image src={sass} alt={sass} />
+        <Image src={webpack} alt={webpack} />
+        <Image src={npm} alt={npm} />
+        <Image src={python} alt={python} />
+        <Image src={mysql} alt={mysql} />
+        <Image src={sqlite} alt={sqlite} />
+        <Image src={bootstrap} alt={bootstrap} />
+      </TechnologiesWrapper>
+    </TechnologiesSection>
+  )
+}
+
 const TechnologiesSection = styled.div `
   display:relative;
   background-color:#191919;
@@ -49,27 +73,3 @@ const DescriptionWrapper = styled.div `
     font-size:18px;
   }
 `;
-
-export const Technologies = () => {
-  return (
-    <TechnologiesSection>
-      <DescriptionWrapper>
-        <TecnologiesSectionTitle>Technologies and Frameworks</TecnologiesSectionTitle>
-        <p>Some languages, libraries and frameworks I use most in my projects</p>
-      </DescriptionWrapper>
-      <TechnologiesWrapper>
-        <Image src={nodejs} alt={nodejs}/>
-        <Image src={react} alt={react}/>
-        <Image src={express} alt={express}/>
-        <Image src={javascript} alt={javascript}/>
-        <Image src={sass} alt={sass}/>
-        <Image src={webpack} alt={webpack}/>
-        <Image src={npm} alt={npm}/>
-        <Image src={python} alt={python}/>
-        <Image src={mysql} alt={mysql}/>
-        <Image src={sqlite} alt={sqlite}/>
-        <Image src={bootstrap} alt={bootstrap}/>
-      </TechnologiesWrapper>
-    </TechnologiesSection>
-  )
-}

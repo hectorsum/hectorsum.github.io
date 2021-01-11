@@ -53,11 +53,11 @@ const CopyrightSection = styled.div `
 
 export const Footer = () => {
   return (
-    <FooterSection>
-      <EmailWrapper>
+    <FooterSection className="row p-4">
+      <EmailWrapper className="col">
         <a href="mailto: sumhector@gmail.com">sumhector@gmail.com</a>
       </EmailWrapper>
-      <SocialIconsWrapper>
+      <SocialIconsWrapper className="col">
         <a href="https://github.com/hectorsum" target="_blank" rel="noopener noreferrer">
           <img src={GithubIcon} width="26" alt="Github"/>
         </a>
@@ -68,8 +68,8 @@ export const Footer = () => {
           <img src={LinkedinIcon} width="26" alt=""/>
         </a>
       </SocialIconsWrapper>
-      <CopyrightSection>
-        <p>© 2021 by Hector Herrera &#9749;</p>
+      <CopyrightSection className="col d-flex justify-content-center align-items-center">
+        <p className="m-0">© 2021 by Hector Herrera &#9749;</p>
       </CopyrightSection>
     </FooterSection>
   )

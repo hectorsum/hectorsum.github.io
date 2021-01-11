@@ -1,34 +1,23 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+
 export const Button = styled.button`
-  background-color: ${props => props.theme.buttonColor};
-  appearance: none;
-  color: white;
-  padding: 15px;
-  outline: none;
-  border: ${props => props.noBorder ? "0" : "2px solid white"};
-  margin: 5px;
+  padding: 10px;
+  width:100%;
+  color:black;
+  background-color: ${props => props.theme.brandColor};
+  border:none;
+  font-size:16px;
+  font-weight:600;
+  /* margin-top:10px; */
+  font-family: 'Space Mono', monospace;
+  outline:none;
   &:hover{
-    background-color: white;
-    transition: all ease 0.5s;
-    background-color: ${props => props.theme.darkTheme};
+    border:none;
     cursor: pointer;
+    font-size:16px;
+    background-color:transparent;
+    transition: all ease-out 0.5s;
+    color: ${props => props.theme.titleColor};
+    border: 2px solid ${props => props.theme.titleColor};
   }
-  ${props => {
-    switch(props.size){
-      case "small":
-        return "font-size: 12px;";
-      case "large":
-        return "font-size: 20px;";
-      default:
-        return "font-size: 16px";
-    }
-  }}
-  ${props =>{
-    if(props.block){
-      return `
-        display: block;
-        width: 100%;
-      `
-    }
-  }}
 `;
