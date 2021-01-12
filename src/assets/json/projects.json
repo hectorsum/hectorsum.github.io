@@ -21,7 +21,19 @@
       "Gravatar",
       "Node-sass",
       "Nodemon"
-    ]
+    ],
+    "preview_images":{
+      "https://i.ibb.co/mBGzBDs/manosnortenas.jpg":"Landing page",
+      "https://i.ibb.co/yB0WXVc/carta.jpg":"Carta donde se muestra los productos",
+      "https://i.ibb.co/k0wCJxd/carta-detalle.jpg":"Carta detalle",
+      "https://i.ibb.co/3kLdnkn/configuracion.jpg":"Configuracion",
+      "https://i.ibb.co/cx9jS7T/consultar-venta.jpg":"Consultar venta",
+      "https://i.ibb.co/WW96tmV/generar-cuenta.jpg":"Generar Cuenta",
+      "https://i.ibb.co/tKrmq3f/home.jpg":"Home",
+      "https://i.ibb.co/5jdjKBK/mantener-usuario.jpg":"Mantener Usuario",
+      "https://i.ibb.co/GcVLKzm/mantenimiento.jpg":"Mantenimiento",
+      "https://i.ibb.co/LP1yysV/registrar-comanda.jpg":"Registrar comanda"
+    }
   },
   {
     "id":"bestwestern",
@@ -43,6 +55,18 @@
       "Gravatar",
       "Node-sass",
       "Nodemon"
-    ]
+    ],
+    "preview_images":{
+      "https://i.ibb.co/1779gDT/bestwestern.jpg":"Landing page",
+      "https://i.ibb.co/yB0WXVc/carta.jpg":"Carta donde se muestra los productos",
+      "https://i.ibb.co/k0wCJxd/carta-detalle.jpg":"Carta detalle",
+      "https://i.ibb.co/3kLdnkn/configuracion.jpg":"Configuracion",
+      "https://i.ibb.co/cx9jS7T/consultar-venta.jpg":"Consultar venta",
+      "https://i.ibb.co/WW96tmV/generar-cuenta.jpg":"Generar Cuenta",
+      "https://i.ibb.co/tKrmq3f/home.jpg":"Home",
+      "https://i.ibb.co/5jdjKBK/mantener-usuario.jpg":"Mantener Usuario",
+      "https://i.ibb.co/GcVLKzm/mantenimiento.jpg":"Mantenimiento",
+      "https://i.ibb.co/LP1yysV/registrar-comanda.jpg":"Registrar comanda"
+    }
   }
 ]
