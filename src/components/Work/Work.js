@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import manosnortenas from '../../assets/images/manosnortenas.JPG';
 import { useProjects } from '../../hooks/useProjects';
 import { ProjectCard } from './ProjectCard';
 
