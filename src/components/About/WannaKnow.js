@@ -11,8 +11,11 @@ const WannaKnowSection = styled.div `
     font-size:18px;
     line-height:26px;
   }
-  @media (max-width: 800px){
+  @media (max-width: 768px){
     padding: 5rem 1rem;
+    & h1{
+      font-size:35px;
+    }
   }
 `;
 

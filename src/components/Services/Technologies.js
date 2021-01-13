@@ -15,12 +15,12 @@ import bootstrap from '../../assets/images/bootstrap.svg';
 export const Technologies = () => {
   return (
     <TechnologiesSection>
-      <DescriptionWrapper>
-        <TecnologiesSectionTitle>Technologies and Frameworks</TecnologiesSectionTitle>
+      <DescriptionWrapper className="p-3">
+        <TecnologiesSectionTitle >Technologies and Frameworks</TecnologiesSectionTitle>
         <p>Some languages, libraries and frameworks I use most in my projects</p>
       </DescriptionWrapper>
       <div className="col-md-12">
-        <TechnologiesWrapper className="row d-flex justify-content-center p-0 m-0">
+        <TechnologiesWrapper className="row d-flex justify-content-center p-0 m-0 pb-3">
           <div className="col-md-8">
             <div className="row">
               <Image src={nodejs} alt={nodejs} className="col"/>
@@ -53,7 +53,7 @@ export const Technologies = () => {
 const TechnologiesSection = styled.div `
   display:relative;
   background-color:#191919;
-  ${'' /* padding: 2.5rem 5rem; */}
+  /* padding: 2.5rem 5rem; */
   @media (max-width:800px){
     padding: 5rem 0;
   }
@@ -82,6 +82,12 @@ const Image = styled.img `
   min-width: 100px;
   ${'' /* place-self: center; */}
   margin: 1em 0;
+  @media (max-width: 768px){
+    & img{
+      max-width: 100%;
+      max-height:100%;
+    }
+  }
 `;
 
 const DescriptionWrapper = styled.div `

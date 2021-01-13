@@ -38,14 +38,22 @@ const Info = styled.div `
 `
 const ProfileImage = styled.img `
   width:500px;
-  max-width: 100%;
   height:700px;
+  max-width: 50%;
+  max-height:50%;
+  vertical-align:middle;
   object-fit:fill;
   object-position:50% 50%;
   border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
   filter: grayscale(50%);
   &:hover{
     filter: brightness(90%);
+  }
+  @media (max-width:800px){
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height:100%;
   }
 `;
 const AboutTitle = styled.h1 `

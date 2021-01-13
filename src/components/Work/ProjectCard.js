@@ -5,7 +5,7 @@ import { WorkButton } from '../Button/WorkButton';
 
 export const ProjectCard = ({id,name,description}) => {
   return (
-    <div className="col-lg-4 col-md-6">
+    <div className="col-lg-4 col-md-6 p-0 px-2">
       <Card key={id} className="card m-0 mb-3">
         <PreviewImage src={`./project-images/${id}.JPG`} alt={name} className="card-img-top"/>
         <div className="card-body">

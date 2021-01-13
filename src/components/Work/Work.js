@@ -6,11 +6,11 @@ import { ProjectCard } from './ProjectCard';
 export const Work = () => {
   const {data,loading} = useProjects();
   loading ? console.log('Loading..') : console.log(data);
-  document.title = 'Work | Hector Herrera'
+  document.title = 'Work | Hector Herrera';
   return (
-    <WorkSection className="p-5">
+    <WorkSection className="">
       <WorkSectionTitle>work 🚀</WorkSectionTitle>
-      <div className="col-lg-12 mt-5 mb-5">
+      <div className="col-lg-12 mt-5 mb-5 d-flex justify-content-center">
         <ContainerProject className="row">
           {
             data.map( data => (
@@ -30,7 +30,10 @@ const WorkSectionTitle = styled.h1 `
 const WorkSection = styled.div ` 
   position:relative;
   margin:0;
-  ${'' /* padding: 5rem; */}
+  padding: 5rem;
+  @media (max-width:800px){
+    padding: 5rem 1rem;
+  }
 `;
 const ContainerProject = styled.div `
   width:100%;
