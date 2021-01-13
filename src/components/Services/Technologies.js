@@ -19,19 +19,33 @@ export const Technologies = () => {
         <TecnologiesSectionTitle>Technologies and Frameworks</TecnologiesSectionTitle>
         <p>Some languages, libraries and frameworks I use most in my projects</p>
       </DescriptionWrapper>
-      <TechnologiesWrapper className="row">
-        <Image src={nodejs} alt={nodejs} />
-        <Image src={react} alt={react} />
-        <Image src={express} alt={express} />
-        <Image src={javascript} alt={javascript} />
-        <Image src={sass} alt={sass} />
-        <Image src={webpack} alt={webpack} />
-        <Image src={npm} alt={npm} />
-        <Image src={python} alt={python} />
-        <Image src={mysql} alt={mysql} />
-        <Image src={sqlite} alt={sqlite} />
-        <Image src={bootstrap} alt={bootstrap} />
-      </TechnologiesWrapper>
+      <div className="col-md-12">
+        <TechnologiesWrapper className="row d-flex justify-content-center p-0 m-0">
+          <div className="col-md-8">
+            <div className="row">
+              <Image src={nodejs} alt={nodejs} className="col"/>
+              <Image src={react} alt={react} className="col"/>
+              <Image src={express} alt={express} className="col"/>
+              <Image src={javascript} alt={javascript} className="col"/>
+            </div>
+          </div>
+          <div className="col-md-8">
+            <div className="row">
+              <Image src={sass} alt={sass} className="col"/>
+              <Image src={webpack} alt={webpack} className="col"/>
+              <Image src={npm} alt={npm} className="col"/>
+              <Image src={python} alt={python} className="col"/>
+            </div>
+          </div>
+          <div className="col-md-8">
+            <div className="row">
+              <Image src={mysql} alt={mysql} className="col"/>
+              <Image src={sqlite} alt={sqlite} className="col"/>
+              <Image src={bootstrap} alt={bootstrap} className="col"/>
+            </div>
+          </div>
+        </TechnologiesWrapper>
+      </div>
     </TechnologiesSection>
   )
 }
@@ -39,7 +53,10 @@ export const Technologies = () => {
 const TechnologiesSection = styled.div `
   display:relative;
   background-color:#191919;
-  padding: 2.5rem 5rem;
+  ${'' /* padding: 2.5rem 5rem; */}
+  @media (max-width:800px){
+    padding: 5rem 0;
+  }
 `;
 
 const TecnologiesSectionTitle = styled.h1 `
@@ -47,19 +64,24 @@ const TecnologiesSectionTitle = styled.h1 `
   font-size: 32px;
   color: ${props => props.theme.titleColor};
   text-align:center;
+  @media (max-width:480px){
+    font-size:22px;
+  }
 `;
 
 const TechnologiesWrapper = styled.div `
-  display:grid;
+  ${'' /* display:grid;
   grid-template-columns: 25% 25% 25% 25%;
   column-gap: 10px;
-  row-gap: 10px;
+  row-gap: 10px; */}
   margin-top:10px;
 `;
 
 const Image = styled.img `
   width:150px;
-  place-self: center;
+  min-width: 100px;
+  ${'' /* place-self: center; */}
+  margin: 1em 0;
 `;
 
 const DescriptionWrapper = styled.div `

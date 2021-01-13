@@ -11,6 +11,9 @@ const WannaKnowSection = styled.div `
     font-size:18px;
     line-height:26px;
   }
+  @media (max-width: 800px){
+    padding: 5rem 1rem;
+  }
 `;
 
 const WannaKnowTitle = styled.h1 `

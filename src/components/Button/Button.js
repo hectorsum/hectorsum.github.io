@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Button = styled.a`
-  width : ${props => props.workdetail ? 'auto' : '100px' };
+  width : auto;
   color:${props => props.theme.titleColor};;
-  font-size:14px;
+  font-size:16px;
   font-weight:600;
   font-family: 'Space Mono', monospace;
   text-align:center;

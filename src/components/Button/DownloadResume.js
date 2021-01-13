@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Button = styled.button `
   padding: 15px;
-  width:160px;
+  width:auto;
   color:black;
   background-color: ${props => props.theme.brandColor};
   border:none;
