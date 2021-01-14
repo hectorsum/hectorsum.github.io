@@ -23,16 +23,16 @@
       "Nodemon"
     ],
     "preview_images":{
-      "https://i.ibb.co/mBGzBDs/manosnortenas.jpg":"Landing page",
-      "https://i.ibb.co/yB0WXVc/carta.jpg":"Menu",
-      "https://i.ibb.co/k0wCJxd/carta-detalle.jpg":"Product Detailed",
-      "https://i.ibb.co/3kLdnkn/configuracion.jpg":"Configuration",
-      "https://i.ibb.co/cx9jS7T/consultar-venta.jpg":"Consult sales",
-      "https://i.ibb.co/WW96tmV/generar-cuenta.jpg":"Generate sale",
-      "https://i.ibb.co/tKrmq3f/home.jpg":"Home Page from system",
-      "https://i.ibb.co/5jdjKBK/mantener-usuario.jpg":"User maintenance",
-      "https://i.ibb.co/GcVLKzm/mantenimiento.jpg":"Starter maintenance",
-      "https://i.ibb.co/LP1yysV/registrar-comanda.jpg":"Register Order"
+      "https://i.imgur.com/WY5JkYT_d.webp?maxwidth=1520&fidelity=grand":"Landing page",
+      "https://i.imgur.com/fuVPrio_d.webp?maxwidth=1520&fidelity=grand":"Menu",
+      "https://i.imgur.com/RYAkmy2_d.webp?maxwidth=1520&fidelity=grand":"Product Detailed",
+      "https://i.imgur.com/0vmoK7s_d.webp?maxwidth=1520&fidelity=grand":"Configuration",
+      "https://i.imgur.com/CP1pc6v_d.webp?maxwidth=1520&fidelity=grand":"Consult sales",
+      "https://i.imgur.com/lqAZBAw_d.webp?maxwidth=1520&fidelity=grand":"Generate sale",
+      "https://i.imgur.com/ybgdJqU_d.webp?maxwidth=1520&fidelity=grand":"Home Page from system",
+      "https://i.imgur.com/CPFWuKJ_d.webp?maxwidth=1520&fidelity=grand":"User maintenance",
+      "https://i.imgur.com/e6iq26j_d.webp?maxwidth=1520&fidelity=grand":"Starter maintenance",
+      "https://i.imgur.com/VinxGSY_d.webp?maxwidth=1520&fidelity=grand":"Register Order"
     }
   },
   {
@@ -57,50 +57,14 @@
       "Nodemon"
     ],
     "preview_images":{
-      "https://i.ibb.co/ByJTrVp/test.jpg":"Landing page",
-      "https://i.ibb.co/yB0WXVc/carta.jpg":"Menu",
-      "https://i.ibb.co/k0wCJxd/carta-detalle.jpg":"Product Detailed",
-      "https://i.ibb.co/3kLdnkn/configuracion.jpg":"Configuration",
-      "https://i.ibb.co/cx9jS7T/consultar-venta.jpg":"Consult sales",
-      "https://i.ibb.co/WW96tmV/generar-cuenta.jpg":"Generate sale",
-      "https://i.ibb.co/tKrmq3f/home.jpg":"Home Page from system",
-      "https://i.ibb.co/5jdjKBK/mantener-usuario.jpg":"User maintenance",
-      "https://i.ibb.co/GcVLKzm/mantenimiento.jpg":"Starter maintenance",
-      "https://i.ibb.co/LP1yysV/registrar-comanda.jpg":"Register Order"
-    }
-  },
-  {
-    "id":"bestwestern",
-    "name":"Best Western Hotel",
-    "description":"Hotel website where users can make a reservation of rooms, employees can also manage any type of room and reservation as well",
-    "tecnologies_used":[
-      "https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%F7DF1E&color=%23FFCE5A",
-      "https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff",
-      "https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff",
-      "https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap&logoColor=ffffff",
-      "https://img.shields.io/badge/-Nodejs-339933?style=flat-square&logo=Node.js&logoColor=ffffff",
-      "https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=ffffff",
-      "https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=ffffff"
-    ],
-    "libraries":[
-      "Multer",
-      "Uuid",
-      "Bcryptjs",
-      "Gravatar",
-      "Node-sass",
-      "Nodemon"
-    ],
-    "preview_images":{
-      "https://i.ibb.co/1779gDT/bestwestern.jpg":"Landing page",
-      "https://i.ibb.co/yB0WXVc/carta.jpg":"Menu",
-      "https://i.ibb.co/k0wCJxd/carta-detalle.jpg":"Product Detailed",
-      "https://i.ibb.co/3kLdnkn/configuracion.jpg":"Configuration",
-      "https://i.ibb.co/cx9jS7T/consultar-venta.jpg":"Consult sales",
-      "https://i.ibb.co/WW96tmV/generar-cuenta.jpg":"Generate sale",
-      "https://i.ibb.co/tKrmq3f/home.jpg":"Home Page from system",
-      "https://i.ibb.co/5jdjKBK/mantener-usuario.jpg":"User maintenance",
-      "https://i.ibb.co/GcVLKzm/mantenimiento.jpg":"Starter maintenance",
-      "https://i.ibb.co/LP1yysV/registrar-comanda.jpg":"Register Order"
+      "https://i.imgur.com/htZnZ34.jpg":"Landing page",
+      "https://i.imgur.com/L4DH91h.jpg":"Reservation form",
+      "https://i.imgur.com/B0hj7V7.jpg":"Home page from system",
+      "https://i.imgur.com/MkPV5YI.jpg":"Maintenance room",
+      "https://i.imgur.com/DduybiU.jpg":"Settings",
+      "https://i.imgur.com/Rxv2zi0.jpg":"Reservation list",
+      "https://i.imgur.com/WUZvZ8q.jpg":"Booked rooms",
+      "https://i.imgur.com/e0m9ihY.jpg":"Receipt"
     }
   }
 ]
