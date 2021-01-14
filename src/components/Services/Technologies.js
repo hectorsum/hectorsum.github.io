@@ -11,6 +11,7 @@ import python from '../../assets/images/python.svg';
 import mysql from '../../assets/images/mysql.svg';
 import sqlite from '../../assets/images/sqlite.svg';
 import bootstrap from '../../assets/images/bootstrap.svg';
+import firebase from '../../assets/images/firebase.svg';
 
 export const Technologies = () => {
   return (
@@ -21,26 +22,31 @@ export const Technologies = () => {
       </DescriptionWrapper>
       <div className="col-md-12">
         <TechnologiesWrapper className="row d-flex justify-content-center p-0 m-0 pb-3">
-          <div className="col-md-8">
-            <div className="row">
+          <div className="col-md-12 d-flex justify-content-center">
+            <div className="row col-md-6">
               <Image src={nodejs} alt={nodejs} className="col"/>
-              <Image src={react} alt={react} className="col"/>
               <Image src={express} alt={express} className="col"/>
               <Image src={javascript} alt={javascript} className="col"/>
             </div>
           </div>
-          <div className="col-md-8">
-            <div className="row">
+          <div className="col-md-12 d-flex justify-content-center">
+            <div className="row col-md-6">
               <Image src={sass} alt={sass} className="col"/>
               <Image src={webpack} alt={webpack} className="col"/>
-              <Image src={npm} alt={npm} className="col"/>
-              <Image src={python} alt={python} className="col"/>
+              <Image src={react} alt={react} className="col"/>
             </div>
           </div>
-          <div className="col-md-8">
-            <div className="row">
+          <div className="col-md-12 d-flex justify-content-center">
+            <div className="row col-md-6">
               <Image src={mysql} alt={mysql} className="col"/>
               <Image src={sqlite} alt={sqlite} className="col"/>
+              <Image src={firebase} alt={firebase} className="col"/>
+            </div>
+          </div>
+          <div className="col-md-12 d-flex justify-content-center">
+            <div className="row col-md-6">
+              <Image src={python} alt={python} className="col"/>
+              <Image src={npm} alt={npm} className="col"/>
               <Image src={bootstrap} alt={bootstrap} className="col"/>
             </div>
           </div>
