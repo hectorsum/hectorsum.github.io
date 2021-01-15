@@ -34,11 +34,11 @@
       "https://i.imgur.com/e6iq26j_d.webp?maxwidth=1520&fidelity=grand":"Starter maintenance",
       "https://i.imgur.com/VinxGSY_d.webp?maxwidth=1520&fidelity=grand":"Register Order"
     },
-    "links":[
+    "links":
       {
         "github":"https://github.com/hectorsum/Manos-Nortenas-Restaurant"
       }
-    ]
+    
   },
   {
     "id":"bestwestern",
@@ -63,11 +63,11 @@
       "https://i.imgur.com/WUZvZ8q.jpg":"Booked rooms",
       "https://i.imgur.com/e0m9ihY.jpg":"Receipt"
     },
-    "links":[
+    "links":
       {
         "github":"https://github.com/Team-diars/DIARS-Project-Best-Western-"
       }
-    ]
+    
   },
   {
     "id":"heroeapp",
@@ -86,12 +86,12 @@
       "https://i.imgur.com/68PJZkC.jpg":"Detailed info",
       "https://i.imgur.com/ZGU9Ztr.jpg":"Search screen"
     },
-    "links":[
+    "links":
       {
         "github":"https://github.com/hectorsum/heroe-app",
         "website":"https://hectorsum.github.io/heroe-app"
       }
-    ]
+    
   },
   {
     "id":"rickandmortyapi",
@@ -111,12 +111,11 @@
       "https://i.imgur.com/GL58oL7.jpg":"Episodes",
       "https://i.imgur.com/fl8F7h9.jpg":"Episode info"
     },
-    "links":[
-      {
+    "links": {
         "github":"https://github.com/hectorsum/rickandmortyAPI",
         "website":"https://hectorsum.github.io/rickandmortyAPI/"
       }
-    ]
+    
   },
   {
     "id":"giphyapi",
@@ -134,11 +133,11 @@
       "https://i.imgur.com/QuB8idO.jpg":"Home",
       "https://i.imgur.com/3xHX8ng.jpg":"Responsive Design"
     },
-    "links":[
+    "links":
       {
         "github":"https://github.com/hectorsum/gif-expert-app",
         "website":"https://hectorsum.github.io/gif-expert-app/"
       }
-    ]
+    
   }
 ]
