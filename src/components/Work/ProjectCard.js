@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import { WorkButton } from '../Button/WorkButton';
 
 export const ProjectCard = ({id,name,description,preview_images}) => {
-  console.log(preview_images)
   return (
     <div className="col-lg-4 col-md-6 p-0 px-2">
       <Card key={id} className="card m-0 mb-3">
@@ -13,7 +12,7 @@ export const ProjectCard = ({id,name,description,preview_images}) => {
           <TitleProject>{name}</TitleProject>
           <DescriptionProject className="card-text">{description}</DescriptionProject>
           <Underline/>
-          <Link to={`./detail/${id}`}>
+          <Link to={`/detail/${id}`}>
             <WorkButton>See more.. ➡️</WorkButton>
           </Link>
         </div>
