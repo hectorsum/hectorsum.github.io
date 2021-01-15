@@ -8,9 +8,9 @@ export const Work = () => {
   loading ? console.log('Loading..') : console.log(data);
   document.title = 'Work | Hector Herrera';
   return (
-    <WorkSection className="">
+    <WorkSection>
       <WorkSectionTitle>work 🚀</WorkSectionTitle>
-      <div className="col-lg-12 mt-5 mb-5 d-flex justify-content-center">
+      <ProjectsWrapper className="col-lg-12 mt-5 mb-5 d-flex justify-content-center">
         <ContainerProject className="row">
           {
             data.map( data => (
@@ -18,10 +18,14 @@ export const Work = () => {
             ))
           }
         </ContainerProject>
-      </div>
+      </ProjectsWrapper>
     </WorkSection>
   )
 }
+
+export const ProjectsWrapper = styled.div `
+
+`;
 
 const WorkSectionTitle = styled.h1 `
   font-size: 40px;
@@ -35,12 +39,8 @@ const WorkSection = styled.div `
     padding: 5rem 1rem;
   }
 `;
-const ContainerProject = styled.div `
+export const ContainerProject = styled.div `
   width:100%;
   background-color:transparent;
-  ${'' /* display:grid; */}
-  ${'' /* grid-template-columns:33.3% 33.3% 33.3%; */}
   height:100%;
-  ${'' /* row-gap:5px; */}
-  ${'' /* column-gap:5px; */}
 `;
