@@ -13,10 +13,12 @@ import { Services } from '../components/Services/Services';
 import { Work } from '../components/Work/Work';
 import { Technologies } from '../components/Services/Technologies';
 import { DetailWork } from '../components/Work/DetailWork';
+import { BackToTopButton } from '../components/Button/BackToTopButton';
 export const AppRouter = () =>{
   return(
     <Router forceRefresh={true}>
       <Navbar/>
+      <BackToTopButton/>
       <Switch>
         <Route exact path="/">
           <Home/>
