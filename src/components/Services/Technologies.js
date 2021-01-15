@@ -22,33 +22,25 @@ export const Technologies = () => {
       </DescriptionWrapper>
       <div className="col-md-12">
         <TechnologiesWrapper className="row d-flex justify-content-center p-0 m-0 pb-3">
-          <div className="col-md-12 d-flex justify-content-center">
-            <div className="row col-md-6">
-              <Image src={nodejs} alt={nodejs} className="col"/>
-              <Image src={express} alt={express} className="col"/>
-              <Image src={javascript} alt={javascript} className="col"/>
-            </div>
+          <div className="row col-md-12 d-flex justify-content-around">
+              <Image src={nodejs} alt={nodejs} className="col-md-4 m-3"/>
+              <Image src={express} alt={express} className="col-md-4 m-3"/>
+              <Image src={javascript} alt={javascript} className="col-md-4 m-3"/>
           </div>
-          <div className="col-md-12 d-flex justify-content-center">
-            <div className="row col-md-6">
-              <Image src={sass} alt={sass} className="col"/>
-              <Image src={webpack} alt={webpack} className="col"/>
-              <Image src={react} alt={react} className="col"/>
-            </div>
+          <div className="row col-md-12 d-flex justify-content-around">
+              <Image src={sass} alt={sass} className="col-md-4 m-3"/>
+              <Image src={webpack} alt={webpack} className="col-md-4 m-3"/>
+              <Image src={react} alt={react} className="col-md-4 m-3"/>
           </div>
-          <div className="col-md-12 d-flex justify-content-center">
-            <div className="row col-md-6">
-              <Image src={mysql} alt={mysql} className="col"/>
-              <Image src={sqlite} alt={sqlite} className="col"/>
-              <Image src={firebase} alt={firebase} className="col"/>
-            </div>
+          <div className="row col-md-12 d-flex justify-content-around">
+              <Image src={mysql} alt={mysql} className="col-md-4 m-3"/>
+              <Image src={sqlite} alt={sqlite} className="col-md-4 m-3 "/>
+              <Image src={firebase} alt={firebase} className="col-md-4 m-3"/>
           </div>
-          <div className="col-md-12 d-flex justify-content-center">
-            <div className="row col-md-6">
-              <Image src={python} alt={python} className="col"/>
-              <Image src={npm} alt={npm} className="col"/>
-              <Image src={bootstrap} alt={bootstrap} className="col"/>
-            </div>
+          <div className="row col-md-12 d-flex justify-content-around">
+              <Image src={python} alt={python} className="col-md-4 m-3"/>
+              <Image src={npm} alt={npm} className="col-md-4 m-3"/>
+              <Image src={bootstrap} alt={bootstrap} className="col-md-4 m-3"/>
           </div>
         </TechnologiesWrapper>
       </div>
