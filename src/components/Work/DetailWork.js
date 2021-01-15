@@ -3,12 +3,14 @@ import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
 import { getProjectById } from '../../selectors/getProjectById';
 import { Button } from '../Button/Button';
+import { ProjectsRelated } from './ProjectsRelated';
 
 export const DetailWork = () => {
   const {id} = useParams()
   const {name,tecnologies_used,preview_images} = getProjectById(id);
   return (
-    <DetailWorkSection className="container p-2">
+    <>
+      <DetailWorkSection className="container p-2">
       <div className="container p-0 m-0 d-flex justify-content-between align-items-end row">
       <Tecnologies className="col d-flex flex-column align-items-left justify-content-center p-4">
         <TecnologiesTitle className="mb-2 p-0">Tecnologies used</TecnologiesTitle>
@@ -65,6 +67,8 @@ export const DetailWork = () => {
         </Carousel>
       </div>
     </DetailWorkSection>
+    <ProjectsRelated id={id}/>
+    </>
   )
 }
 
@@ -84,7 +88,6 @@ const Carousel = styled.div `
 
 const Tecnologies = styled.div `
   background-color:rgba(0,0,0,0.3);
-  /* border: 1px solid ${props => props.theme.titleColor }; */
   box-sizing:border-box;
   width: auto;
   max-width:400px;
