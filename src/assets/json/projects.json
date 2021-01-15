@@ -33,7 +33,12 @@
       "https://i.imgur.com/CPFWuKJ_d.webp?maxwidth=1520&fidelity=grand":"User maintenance",
       "https://i.imgur.com/e6iq26j_d.webp?maxwidth=1520&fidelity=grand":"Starter maintenance",
       "https://i.imgur.com/VinxGSY_d.webp?maxwidth=1520&fidelity=grand":"Register Order"
-    }
+    },
+    "links":[
+      {
+        "github":"https://github.com/hectorsum/Manos-Nortenas-Restaurant"
+      }
+    ]
   },
   {
     "id":"bestwestern",
@@ -48,14 +53,6 @@
       "https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=ffffff",
       "https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=ffffff"
     ],
-    "libraries":[
-      "Multer",
-      "Uuid",
-      "Bcryptjs",
-      "Gravatar",
-      "Node-sass",
-      "Nodemon"
-    ],
     "preview_images":{
       "https://i.imgur.com/htZnZ34.jpg":"Landing page",
       "https://i.imgur.com/L4DH91h.jpg":"Reservation form",
@@ -65,6 +62,83 @@
       "https://i.imgur.com/Rxv2zi0.jpg":"Reservation list",
       "https://i.imgur.com/WUZvZ8q.jpg":"Booked rooms",
       "https://i.imgur.com/e0m9ihY.jpg":"Receipt"
-    }
+    },
+    "links":[
+      {
+        "github":"https://github.com/Team-diars/DIARS-Project-Best-Western-"
+      }
+    ]
+  },
+  {
+    "id":"heroeapp",
+    "name":"Heroe app",
+    "description":"Single Page Application and Rest-API from Marvel and DC heroes where user can choose between Marvel and DC heroes and find out about them",
+    "tecnologies_used":[
+      "https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%F7DF1E&color=%23FFCE5A",
+      "https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=ffffff",
+      "https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff",
+      "https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap&logoColor=ffffff",
+      "https://img.shields.io/badge/-JSON-000000?style=flat-square&logo=JSON&logoColor=ffffff",
+      "https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff"
+    ],
+    "preview_images":{
+      "https://i.imgur.com/mrPoq14.jpg":"Home page",
+      "https://i.imgur.com/68PJZkC.jpg":"Detailed info",
+      "https://i.imgur.com/ZGU9Ztr.jpg":"Search screen"
+    },
+    "links":[
+      {
+        "github":"https://github.com/hectorsum/heroe-app",
+        "website":"https://hectorsum.github.io/heroe-app"
+      }
+    ]
+  },
+  {
+    "id":"rickandmortyapi",
+    "name":"Rick and Morty API",
+    "description":"Project based on fetching data from Rick and Morty API where users can find information about the characters and chapters",
+    "tecnologies_used":[
+      "https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%F7DF1E&color=%23FFCE5A",
+      "https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=ffffff",
+      "https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff",
+      "https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap&logoColor=ffffff",
+      "https://img.shields.io/badge/-JSON-000000?style=flat-square&logo=JSON&logoColor=ffffff",
+      "https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff"
+    ],
+    "preview_images":{
+      "https://i.imgur.com/Zz4GuhL.jpg":"Characters",
+      "https://i.imgur.com/o3IWw2G.jpg":"Character info",
+      "https://i.imgur.com/GL58oL7.jpg":"Episodes",
+      "https://i.imgur.com/fl8F7h9.jpg":"Episode info"
+    },
+    "links":[
+      {
+        "github":"https://github.com/hectorsum/rickandmortyAPI",
+        "website":"https://hectorsum.github.io/rickandmortyAPI/"
+      }
+    ]
+  },
+  {
+    "id":"giphyapi",
+    "name":"Giphy API",
+    "description":"Project based on fetching data using Giphy API through an input field, all gifs are shown according what Giphy shows",
+    "tecnologies_used":[
+      "https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%F7DF1E&color=%23FFCE5A",
+      "https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=ffffff",
+      "https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff",
+      "https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap&logoColor=ffffff",
+      "https://img.shields.io/badge/-JSON-000000?style=flat-square&logo=JSON&logoColor=ffffff",
+      "https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff"
+    ],
+    "preview_images":{
+      "https://i.imgur.com/QuB8idO.jpg":"Home",
+      "https://i.imgur.com/3xHX8ng.jpg":"Responsive Design"
+    },
+    "links":[
+      {
+        "github":"https://github.com/hectorsum/gif-expert-app",
+        "website":"https://hectorsum.github.io/gif-expert-app/"
+      }
+    ]
   }
 ]
