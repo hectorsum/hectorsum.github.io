@@ -6,7 +6,7 @@ import EmailIcon from '../../assets/images/email.png'
 
 export const Footer = () => {
   return (
-    <FooterSection className="row p-4">
+    <FooterSection className="row">
       <EmailWrapper className="col">
         <a href="mailto: sumhector@gmail.com">sumhector@gmail.com</a>
       </EmailWrapper>
@@ -21,7 +21,7 @@ export const Footer = () => {
           <img src={LinkedinIcon} width="26" alt=""/>
         </a>
       </SocialIconsWrapper>
-      <CopyrightSection className="col d-flex justify-content-center align-items-center">
+      <CopyrightSection className="col">
         <p className="m-0">© 2021 by Hector Herrera &#9749;</p>
       </CopyrightSection>
     </FooterSection>
@@ -35,23 +35,33 @@ const FooterSection = styled.footer `
   background-color: ${props => props.theme.darkThemeBG};
   display:flex;
   justify-content:space-between;
+  @media (max-width:768px){
+    padding: 5rem 1rem;
+  }
 `;
 
 const EmailWrapper = styled.div `
   display:flex;
   align-items:center;
-  justify-content:center;
-  padding:5px;
+  justify-content:flex-start;
+  padding-right:12px;
+  width:auto;
   /* margin:15px; */
   text-decoration:none;
   & a{
     color: ${props => props.theme.brandColor};
     font-weight:700;
     font-size:16px;
+    width:auto;
   }
   & a:hover{
     transition: all ease 0.3s;
     color: ${props => props.theme.titleColor};
+  }
+  @media (max-width:768px){
+    display:flex;
+    padding:12px;
+    justify-content:center;
   }
 `;
 
@@ -69,9 +79,22 @@ const SocialIconsWrapper = styled.div `
 `;
 
 const CopyrightSection = styled.div `
-  padding:5px;
+  padding:0px;
+  display:flex;
+  justify-content: flex-end;
+  align-items:center;
+  padding-left:12px;
   & p{
+    width:auto;
     font-size:15px;
     color: ${props => props.theme.titleColor};
+  }
+  @media (max-width:768px){
+    display:flex;
+    justify-content:center;
+    padding:12px;
+    & p{
+      text-align:center;
+    }
   }
 `;

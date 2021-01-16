@@ -7,7 +7,7 @@ export const Home = () => {
       <WrapperTitle>
         <Title>Hello. I'm <span>Hector Herrera</span>, a Full Stack developer based in Lima</Title>
         <p>
-        I'm a developer who build projects from research to implementation. I combine empathy, business strategy and good design to create exceptional experiences.
+        I'm a developer who build projects from research to implementation. I combine empathy, business strategy and good design to create the best impact.
         </p>
       </WrapperTitle>
     </HomeScreen>

@@ -10,9 +10,10 @@ export const About = () => {
       <ProfileImage className="col-md-5 mb-3 mt-3" src={profile} alt="Profile Image Hector Herrera"/>
       <Info className="col w-auto"> 
         <AboutTitle>about me 👨‍💻</AboutTitle>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus atque similique recusandae dolorem fugiat ipsa saepe modi molestiae? Nisi maxime culpa fugit soluta quaerat cupiditate, quisquam explicabo facilis tempora quae earum, in eos placeat? Quod, recusandae officia! Iure, sit. Atque nisi repellendus velit ut! Dolorum cumque fuga dolor asperiores doloribus maxime quaerat error totam eius? Rerum ullam eius eveniet tenetur!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus atque similique recusandae dolorem fugiat ipsa saepe modi molestiae? Nisi maxime culpa fugit soluta quaerat cupiditate, quisquam explicabo facilis tempora quae earum, in eos placeat? Quod, recusandae officia! Iure, sit. Atque nisi repellendus velit ut! Dolorum cumque fuga dolor asperiores doloribus maxime quaerat error totam eius? Rerum ullam eius eveniet tenetur!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus atque similique recusandae dolorem fugiat ipsa saepe modi molestiae? Nisi maxime culpa fugit soluta quaerat cupiditate, quisquam explicabo facilis tempora quae earum, in eos placeat? Quod, recusandae officia! Iure, sit. Atque nisi repellendus velit ut! Dolorum cumque fuga dolor asperiores doloribus maxime quaerat error totam eius? Rerum ullam eius eveniet tenetur!</p>
+        <p>Hey! I'm Hector Herrera, a final year student of Computer Systems engineering and Full Stack web developer. I'm also working at <span>FullTimeForce</span> as a Junior Developer.</p>
+        <p>I have fun creating all of my projects either front-end or back-end stuff. On the other hand, I highly enjoy when people use what I built, and feel curious about what they think or do with them.</p>
+        <p>I'm really patient and focused when news projects come, so that I bring the best experience and care deeply about details so that my work impacts others in the best possible way.</p>
+        <p>I enjoy having challenges and teaching others about web development or general stuff, it's part of me and always will be. In my spare time I like to read books or play with my cats.</p>
         <DownloadResume/>
       </Info>
     </AboutSection>
@@ -33,7 +34,12 @@ const Info = styled.div `
   width:auto;
   & p{
     margin: 10px 0px;
+    line-height:30px;
     color: ${props => props.theme.paragraphColor};
+  }
+  & span{
+    color: ${props => props.theme.brandColor};
+    font-weight:500;
   }
 `
 const ProfileImage = styled.img `

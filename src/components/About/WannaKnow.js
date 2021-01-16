@@ -4,7 +4,8 @@ import { AboutButton } from '../Button/AboutButton'
 
 const WannaKnowSection = styled.div `
   position:relative;
-  background-color: ${props => props.theme.darkThemeBG};
+  /* background-color: ${props => props.theme.darkThemeBG}; */
+  background-color: #191919;
   padding: 5rem;
   & p{
     color: ${props => props.theme.paragraphColor};
@@ -29,7 +30,7 @@ export const WannaKnow = () => {
   return (
     <WannaKnowSection>
       <WannaKnowTitle>Who am I? 🎈</WannaKnowTitle>
-      <p>I have a unique ability to translate big-picture vision into successful design solutions. I question assumptions, turn ambiguity into clarity, and radically empathize with users to craft valuable products and joyful experiences.
+      <p>I have a best ability to translate minded-picture vision into successful solutions. I question assumptions, turn ambiguity into clarity, and radically empathize with users to craft valuable products and joyful experiences.
       </p>
       <AboutButton/>
     </WannaKnowSection>

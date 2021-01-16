@@ -23,8 +23,8 @@ export const AppRouter = () =>{
         <Route exact path="/">
           <Home/>
           <WannaKnow/>
-          <Services/>
-          <Technologies/>
+          {/* <Services/>
+          <Technologies/> */}
         </Route>
         <Route path="/about">
           <About/>
