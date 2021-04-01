@@ -1,5 +1,33 @@
 [
   {
+    "id":"devconnector",
+    "name":"Dev Connector - MERN",
+    "description":"Project based on a social media app for developers where they can create any post and register their information",
+    "tecnologies_used":[
+      "https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%F7DF1E&color=%23FFCE5A",
+      "https://img.shields.io/badge/-Mongodb-GA248?style=flat-square&logo=mongodb&logoColor=ffffff&labelColor=%F7DF1E&color=%47A248",
+      "https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=ffffff",
+      "https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=ffffff",
+      "https://img.shields.io/badge/-Nodejs-339933?style=flat-square&logo=Node.js&logoColor=ffffff",
+      "https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap&logoColor=ffffff",
+      "https://img.shields.io/badge/-JSON-000000?style=flat-square&logo=JSON&logoColor=ffffff"
+    ],
+    "preview_images":{
+      "https://i.imgur.com/hWz9Vnp.jpg":"Home",
+      "https://i.imgur.com/FmLdiwK.jpg":"Sign In",
+      "https://i.imgur.com/SBOeGX0.jpg":"Sign Up",
+      "https://i.imgur.com/d3Ba39I.jpg":"Dashboard",
+      "https://i.imgur.com/shxcAUH.jpg":"Developers",
+      "https://i.imgur.com/io70Saf.jpg":"Posts"
+    },
+    "links":
+      {
+        "github":"https://github.com/hectorsum/dev-connector",
+        "website":"https://dev-connector-hectorsum.herokuapp.com/"
+      }
+    
+  },
+  {
     "id":"manosnortenas",
     "name":"Manos Norteñas Restaurant",
     "description":"E-commerce website where clients can easily buy food from there and a system built for employees for maintain products and sales flow",
@@ -141,26 +169,56 @@
     
   },
   {
-    "id":"devconnector",
-    "name":"Dev Connector",
-    "description":"Project based on a social media app for developers where they can create any post and register their information",
+    "id":"handwashing-app",
+    "name":"Handwashing App",
+    "description":"This is a project where there's a limit time for washing your hands, specially built for this pandemic situation",
     "tecnologies_used":[
       "https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%F7DF1E&color=%23FFCE5A",
-      "https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=ffffff",
-      "https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff",
-      "https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap&logoColor=ffffff",
-      "https://img.shields.io/badge/-JSON-000000?style=flat-square&logo=JSON&logoColor=ffffff",
-      "https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff"
+      "https://img.shields.io/badge/-Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=ffffff"
     ],
     "preview_images":{
-      "https://i.imgur.com/QuB8idO.jpg":"Home",
-      "https://i.imgur.com/3xHX8ng.jpg":"Responsive Design"
+      "https://i.imgur.com/GQYGTce.jpg":"Handwashing-app"
     },
     "links":
       {
-        "github":"https://github.com/hectorsum/dev-connector",
-        "website":"https://dev-connector-hectorsum.herokuapp.com/"
+        "github":"https://github.com/hectorsum/handwashing-app",
+        "website":"https://hectorsum.github.io/handwashing-app/"
       }
-    
+  },
+  {
+    "id":"project-stimator",
+    "name":"Project Stimator",
+    "description":"This is a project where there's a limit time for washing your hands, specially built for this pandemic situation",
+    "tecnologies_used":[
+      "https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%F7DF1E&color=%23FFCE5A",
+      "https://img.shields.io/badge/-Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=ffffff"
+    ],
+    "preview_images":{
+      "https://i.imgur.com/cWVRZbB.jpg":"Project Stimator"
+    },
+    "links":
+      {
+        "github":"https://github.com/hectorsum/project-stimator",
+        "website":"https://hectorsum.github.io/project-stimator/"
+      }
+  },
+  {
+    "id":"covid-tracker",
+    "name":"Covid Tracker",
+    "description":"This is a COVID-19 tracker from US, where I fetch data through API about daily incidents from different states",
+    "tecnologies_used":[
+      "https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%F7DF1E&color=%23FFCE5A",
+      "https://img.shields.io/badge/-Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=ffffff"
+    ],
+    "preview_images":{
+      "https://i.imgur.com/GdpifKJ.jpg":"Covid-19 Tracker",
+      "https://i.imgur.com/FY9VnYl.jpg":"Search by State",
+      "https://i.imgur.com/smOF1A3.jpg":"State Info"
+    },
+    "links":
+      {
+        "github":"https://github.com/hectorsum/covid-19",
+        "website":"https://elastic-benz-979c85.netlify.app/"
+      }
   }
 ]

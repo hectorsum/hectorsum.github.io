@@ -20,3 +20,37 @@ p{
   font-weight:bolder;
   color: #FFFF49 !important;
 }
+
+.paginationBttns {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  color: white;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: #181818;
+  background-color: #FFFF49;
+}
+
+.paginationActive a {
+  color: #181818 !important;
+  font-weight: bold;
+  background-color: #FFFF49;
+}
+
+.paginationDisabled a {
+  color: white;
+  background-color: #181818;
+}
