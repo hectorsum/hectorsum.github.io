@@ -139,5 +139,28 @@
         "website":"https://hectorsum.github.io/gif-expert-app/"
       }
     
+  },
+  {
+    "id":"devconnector",
+    "name":"Dev Connector",
+    "description":"Project based on a social media app for developers where they can create any post and register their information",
+    "tecnologies_used":[
+      "https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%F7DF1E&color=%23FFCE5A",
+      "https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=ffffff",
+      "https://img.shields.io/badge/-Sass-%23CC6699?style=flat-square&logo=sass&logoColor=ffffff",
+      "https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=Bootstrap&logoColor=ffffff",
+      "https://img.shields.io/badge/-JSON-000000?style=flat-square&logo=JSON&logoColor=ffffff",
+      "https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff"
+    ],
+    "preview_images":{
+      "https://i.imgur.com/QuB8idO.jpg":"Home",
+      "https://i.imgur.com/3xHX8ng.jpg":"Responsive Design"
+    },
+    "links":
+      {
+        "github":"https://github.com/hectorsum/dev-connector",
+        "website":"https://dev-connector-hectorsum.herokuapp.com/"
+      }
+    
   }
 ]
